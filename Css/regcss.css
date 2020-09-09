@@ -1,0 +1,121 @@
+body{
+	background-image:url(../img/13.PNG);
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+	
+	
+}
+
+.NavigationBar {
+	background-color: rgba(0, 0, 0, 0.9); 
+	display: flex;
+	justify-content: center;
+	width: 100%; 
+margin-bottom:30px;	
+
+	
+}
+
+.NavigationBar ul li{
+		display: inline-block;
+		height: 30px;
+	    list-style: none;
+		width: 120px;
+	border-right :1px solid #D0D0D0;
+	text-align:center;
+		}
+		
+		
+.NavigationBar ul li a{
+	font-size: 17px;
+	text-decoration:none;
+				
+				color: white;
+			}
+			
+			
+.NavigationBar ul li a:hover{
+				
+				color: #D0D0D0;
+				font-size: 17px;
+				line-height: 40px;
+				display: block;
+				box-shadow: rgba(0, 0, 0, 0.5);
+			}
+
+.avatar{
+	width:30%;
+	height:23%;
+	border-radius; 50%;
+	position:absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+	
+}
+
+.reg {
+	
+	background-color: #D0d0d0 ;
+	height: 330px;
+	width: 290px;	
+	 position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	padding:40px  20px;
+}
+
+input {
+	width:100%;
+	margin-bottom :12px;
+	
+	
+}
+
+.reg input:not([type]), input[type="text"] , input[type="password"] {
+	border:none;
+	border-bottom:1px solid #696969;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:black;
+	font-size:16px;
+
+}
+
+select , option{
+	
+	font-size:16px;
+	
+}
+
+.reg input:not([type]), input[type="submit"] {
+	margin-top: 40px;
+	outline :none;
+	height:35px;
+	color:black;
+	font-size:16px;
+	border-radius:20px;
+	
+	
+}
+
+
+
+
+h2{color:black;
+font-size:22px;}
+
+
+.reg p{
+color:black;
+margin:0;
+padding:0;
+font-weight:bold;
+}
+
+
+

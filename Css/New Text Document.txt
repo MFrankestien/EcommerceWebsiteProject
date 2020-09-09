@@ -1,0 +1,86 @@
+<p>First Name</p>
+<input type="text" name="Firstnames" size="30">
+
+<br>
+
+
+    <p>Last Name</p>
+<input type="text" name="Lastname" size="30">
+
+<br>
+
+
+    <p>Password</p>
+<input type="password" name="password"  size="30">
+
+<br>
+
+<p>Re-write Password</p>
+<input type="rpassword" name="rpassword"  size="30">
+
+
+<br>
+
+    <p>Gender</p>
+<input type="radio" name="sex" value="male" size="10" checked>Male
+<input type="radio" name="sex" value="Female" size="10">Female
+
+<br>
+
+    <p>Country</p>
+<td><select name="Country">
+<option value="-1" selected>select..</option>
+<option value="Egypt">Egypt</option>
+<option value="kuwait">kuwait</option>
+<option value="KSA">KSA</option>
+<option value="USA">USA</option>
+<option value="Moroco">Moroco</option>
+<option value="Japan">Japan</option>
+
+</select>
+
+<br>
+
+    <p>Address </p>
+<input type="text" name="Address" size="30">
+
+<br>
+
+
+    <p>Category</p>
+<td><select name="Catedory">
+<option value="-1" selected>select..</option>
+<option value="B.Tech"></option>
+<option value="MCA">MCA</option>
+
+</select>
+
+<br>
+
+
+    <p>PinCode</p>
+<input type="text" name="pincode" id="pincode" size="30">
+
+<br>
+    
+    
+    <p>Email</p>
+<input type="text" name="emailid" id="emailid" size="30">
+
+
+<br>
+
+    <p>MobileNo</p>
+<input type="text" name="mobileno" id="mobileno" size="30">
+
+<br>
+    
+
+
+
+
+<input type="button" value="reset">
+<br>
+<input type="submit" value="Submit Form" >
+
+

@@ -1,0 +1,74 @@
+
+
+.toppro{
+    width: 1000px; display: table; margin: auto;
+}
+
+.toppro h3{
+    float: left; color: black;
+    background: #d3654c;
+margin: 0px;line-height: ;41px;
+text-indent: 40px;
+font-weight: normal;; font-size: 19px;
+padding-right: 20px;
+}
+
+.toppro ul , ul li {
+    
+    float: left; padding: 0px; margin: 0px;list-style: none;
+    
+}
+
+.toppro ul{width: 100%;}
+.toppro ul li { width: 25%; margin-bottom: 10px;}
+
+
+.pro{float: left; width: 240px;
+background-color:whitesmoke;
+border-bottom: #d3654c 1px solid ;
+position: relative;
+}
+
+.pro a { float: left; width: 100%;
+text-align: center;}
+
+.pro a.img {margin-top: 10px;}
+
+.pro a.img img {height: 170px ; max-width: 100%; border-bottom: #d3654c 4px solid }
+
+.pro a.name {
+
+font-weight: bolder;
+color: black;
+font-size: 15px;
+text-decoration: none; margin-top: 10px;
+}
+
+.pro a.name:hover {color: #d3654c; }
+
+.pro a.cart {
+
+border-top: #d3654c 1px solid;
+background:  url(../img/cart.PNG) 15% 1px no-repeat;
+line-height: 30px;
+font-weight: bold;color: #d3654c;
+text-decoration: none;
+}
+
+.pro a.cart:hover { 
+background-color: #d3654c;
+color: white;
+}
+
+.pro a.name hover {background-color:#d3654c; color: white;}
+
+.pro div { 
+font-size: 16px; font-weight: bold; color: #d3654c;
+text-indent: 10px;
+margin: 10px 0 10px 0;
+float: left; width: 100%;
+}
+
+
+.pro:hover a.img img {
+opacity: 0.7 /*css 3*/}
